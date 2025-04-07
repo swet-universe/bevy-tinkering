@@ -2,6 +2,9 @@
 name = "bevy-container"
 version = "0.1.0"
 edition = "2024"
+default-run = "bevy-container"
 
 [dependencies]
-bevy = "0.15"
+bevy = "0.15.3"
+bevy_simple_text_input = "0.10.2"
+bevy_cosmic_edit = { git = "https://github.com/swet-universe/bevy_cosmic_edit.git", branch = "main" }
